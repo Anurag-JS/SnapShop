@@ -22,7 +22,7 @@ export default function OrderDetail(props){
 
                 {/* first row of the table */}
                 <tr>
-                    <th>S.no</th>
+                    <th>S.No</th>
                     <th>Product Name</th>
                     <th>Price</th>
                     <th>Quantity</th>

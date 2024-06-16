@@ -82,7 +82,7 @@ export function Cart(){
 
                     {/* welcome message */}
                     <div className={secondStyles.userInfo}>
-                        <h1>Hey {userLoggedIn.name}, <small>Your Cart has</small></h1>
+                        <h1>Hey {userLoggedIn.name},</h1>
                     </div>
 
                     {/* cart detail and purchase button */}
@@ -120,7 +120,7 @@ export function Cart(){
                     {/* if cart is empty  */}
                     {cart.length === 0 ?
                                     // render this msg
-                                    <h1>Nothing in Your Cart !!!</h1>
+                                    <h1>Your Cart Is Empty!!!</h1>
                                     // else render all the product's one  by one
                                     :cart.map((product,i) => <CartItem key={i}
                                                         product={product}/>)}

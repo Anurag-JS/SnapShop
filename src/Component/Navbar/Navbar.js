@@ -22,8 +22,8 @@ export default function Navbar(){
                 <div className={styles.appName}>
                     <NavLink to="/">
                         {/* logo of the app */}
-                        <i class="fa-solid fa-shop"></i>
-                        Buy Busy
+                        <i class="fa-brands fa-shopify"></i> &nbsp;
+                        SnapShop
                     </NavLink>
                 </div>
 
@@ -34,7 +34,7 @@ export default function Navbar(){
                     <NavLink to="/">
                         <span>
                             {/* home logo */}
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-house"></i> &nbsp;
                             Home
                         </span>
                     </NavLink>
@@ -44,7 +44,7 @@ export default function Navbar(){
                     {isLoggedIn && <NavLink to="/myorder">
                         <span>
                             {/* my order logo */}
-                            <i class="fa-solid fa-bag-shopping"></i>
+                            <i class="fa-solid fa-bag-shopping"></i> &nbsp;
                             My Order
                         </span>
                     </NavLink> }
@@ -55,7 +55,7 @@ export default function Navbar(){
                     {isLoggedIn && <NavLink to="/cart">
                         <span>
                             {/* cart icon */}
-                            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                            <i class="fa-sharp fa-solid fa-cart-shopping"></i> &nbsp;
                             Cart
                         </span>
                     </NavLink> }
@@ -67,15 +67,16 @@ export default function Navbar(){
                             {!isLoggedIn?
                                 <>
                                     {/* sign in icon */}
-                                    <i class="fa-solid fa-right-to-bracket"></i>
                                     SignIn
+                                    <i class="fa-solid fa-right-to-bracket"></i>
                                 </>
                                 :
                                 <>
                                     {/* sign out icon */}
-                                    <i class="fa-solid fa-right-from-bracket"></i>
+                                    
                                     {/* sign out user  */}
                                     <span onClick={signOut}>SignOut</span>
+                                    <i class="fa-solid fa-right-from-bracket"></i>
                                 </>
                             }
                         </span>

@@ -19,11 +19,11 @@
 
 /* app name inside navbar */
 .appName a{
-    color:rgb(96, 197, 248);
+    color:goldenrod;
 }
 
 .appName a:hover{
-    color: goldenrod;
+    color: rgb(255, 202, 67);
 }
 
 /* all the navigating links */
