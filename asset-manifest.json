@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SnapShop/static/css/main.7a49838f.css",
+    "main.js": "/SnapShop/static/js/main.1d5cf1d5.js",
+    "static/media/homeB2.jpg": "/SnapShop/static/media/homeB2.898f7053a6a1dcbfb169.jpg",
+    "static/media/orders.jpg": "/SnapShop/static/media/orders.f9636185f76e5673ad6a.jpg",
+    "index.html": "/SnapShop/index.html",
+    "main.7a49838f.css.map": "/SnapShop/static/css/main.7a49838f.css.map",
+    "main.1d5cf1d5.js.map": "/SnapShop/static/js/main.1d5cf1d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a49838f.css",
+    "static/js/main.1d5cf1d5.js"
+  ]
+}
