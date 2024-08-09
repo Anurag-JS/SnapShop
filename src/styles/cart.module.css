@@ -1,0 +1,165 @@
+
+/* ========================== Cart.js ========================  */
+
+/* page's maincontainer */
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(255, 0, 0);
+}
+
+ /* div within the mainContainer */
+.mainContainer > div {
+    margin: 15px;
+    width: 100%;;
+}
+
+/* cart page header containing cart details */
+.header{
+    height: 60px;
+    background-color: #322d7e;
+    box-shadow: 1px 1px 8px 1px grey;;
+    padding:5px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+/* styles for cart detail inside header */
+.header small, .cartDetail{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*  cartDetail container */
+.cartDetail{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* div inside cart detail */
+.cartDetail > div{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*  button inside cart detail */
+.cartDetail button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    color: white;
+}
+
+/* common styles for button inside the cart detail */
+.cartDetail button:hover{
+    background-color: white;
+}
+
+/* empty cart button */
+.removeAll{
+    background-image:radial-gradient(circle, #005f9e, #001f3f);
+}
+
+/* purchase button */
+.purchaseAll{
+    background-image:radial-gradient(circle, #005f9e, #001f3f);
+}
+
+/* style on hover over button */
+.removeAll:hover{
+    color: red;
+    border: 3px solid red;
+}
+
+/* style on hover over button */
+.purchaseAll:hover{
+    color: greenyellow;
+    border: 3px solid greenyellow;
+}
+
+
+/* ================================ CartItem.js ========================= */
+
+
+/* image container within the product card */
+.imageContainer{
+    height: 70%;
+}
+
+/* image inside the container */
+.imageContainer img{
+    height: 100%;
+    width: 100%;
+}
+
+/* product info */
+.itemInfo{
+    width: 100%;
+    height: 30%;
+}
+
+/* div inside product info */
+.itemInfo > div{
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+}
+
+/* name and price container */
+.namePrice{
+    height: 26%;
+    font-size: 1rem;
+}
+
+/* price and quantity container */
+.priceQuant{
+    height: 37%;
+    display: flex;
+    justify-content: space-between;
+    color: goldenrod;
+}
+
+/* product quantity */
+.quantity{
+    color:goldenrod;
+}
+
+/* reduce quantity */
+.minus{
+    color:rgb(104, 236, 159);
+}
+
+/* increase quantity */
+.plus{
+    color:rgb(104, 236, 159);
+}
+
+/* button container */
+.btnContainer{
+  height: 37%;  
+}
+
+/* remove from cart button */
+.removeBtn{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    color: white;
+    background-image:radial-gradient(circle, #0c7bc6, #072f8e);
+}
+
+/* style on hover */
+.removeBtn:hover{
+    background-image: none;
+    border: 2px solid #D31027;
+    background-color: #D31027;
+}

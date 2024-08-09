@@ -1,0 +1,49 @@
+
+/* main container of the navbar */
+.navbarContainer{
+    background-image: radial-gradient(circle, #064c7b, #001f3f);
+    width: 90%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 5%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    color:rgb(96, 197, 248);
+}
+
+/* app name inside navbar */
+.appName a{
+    color:goldenrod;
+}
+
+.appName a:hover{
+    color: rgb(255, 202, 67);
+}
+
+/* all the navigating links */
+.navLinks{
+    float: right;
+}
+
+/* single link within the navlink */
+.navLinks span {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+/* styling link */
+.navLinks a{
+    color: rgb(240, 178, 23);
+}
+
+/* style on hover over the link */
+.navLinks a:hover{
+    color:goldenrod;
+}
+
