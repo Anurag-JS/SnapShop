@@ -1,26 +1,26 @@
-#SnapShop
+# SnapShop
 SnapShop is a feature-rich e-commerce website built using modern web technologies like React.js and Redux Toolkit, the application offers a seamless shopping experience, enabling users to create accounts, manage their carts, and place orders effortlessly. All user data, including cart and order information, is securely stored in a Firebase Firestore database, ensuring data persistence across sessions.
 
-##Features
+## Features
 ###User Authentication
 Users can easily sign up and log in to access personalized shopping features, ensuring a secure and customized shopping experience.
 
-###Cart Management
+### Cart Management
 Add, remove, or update product quantities in your cart with real-time updates, providing users with a dynamic and responsive shopping cart.
 
-###Order Placement
+### Order Placement
 Place orders directly from the cart and receive an itemized bill for your purchase, making the checkout process smooth and transparent.
 
-###Persistent Data Storage
+### Persistent Data Storage
 All cart and order data are saved in a Firebase Firestore database, ensuring that your shopping data is never lost, even if you close the browser or log out.
 
-###Real-Time Updates
+### Real-Time Updates
 The application leverages Firebase's real-time database capabilities to keep user data up to date, providing instant feedback on user actions.
 
-###Responsive Design
+### Responsive Design
 The user interface is designed to be fully responsive, ensuring a smooth experience across all devices, including desktops, tablets, and smartphones.
 
-###Tools and Technologies Used
+### Tools and Technologies Used
 React.js
 A powerful JavaScript library for building fast and interactive user interfaces.
 
@@ -43,7 +43,7 @@ CSS
 Custom styles are applied for a clean, user-friendly interface, ensuring that the visual experience is as polished as the technical functionality.
 
 
-##Installation and Run
+## Installation and Run
 To run this project locally, follow these steps:
 
 1. Clone the Repository
